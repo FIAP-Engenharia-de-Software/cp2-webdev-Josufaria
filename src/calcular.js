@@ -11,6 +11,23 @@
 
 function calcular(num1, num2, operador) {
   // TODO: implementar função
+  num1 = prompt ("Digite o primeiro numero:")
+  num2 = prompt ("Digite o segundo numero:")
+  operador = prompt ("Digite o primeiro numero(+, -, *, /):")
+  if (typeof(a) && typeof(b) != Number){
+    return("Erro: parâmetros inválidos")
+  }
+  if (operador == (0)){
+    return("Erro: divisão por zero")
+  }
+  if (typeof(num1) && typeof(num2)){
+    return("Erro: operação inválida")
+  }
+  
+  switch(operador){
+  case "+, -, *, /":
+  return (resultado)
+  }
 }
 
 
